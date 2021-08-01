@@ -1,19 +1,58 @@
 body {
-    background-color:rgb(226, 228, 121);
     color: floralwhite;
 }
-#banner {
-    width: 100%;
+
+.Cabecalho {
+    font-size: 40px;
+    color: black;
+    margin-left: 30px;
 }
-h1 {
+
+.Centralizado {
+    color: black;
     text-align: center;
 }
+
+.banner {
+    width: 100%;
+}
+
+.principal {
+    padding: 30px;
+    background-color: rgb(91, 92, 92);
+}
+
 p {
     text-align: center;
 }
+
 #missao {
     font-size: 20px;
 }
+
 em strong {
-    color: rgb(21, 145, 138);
+    color: rgb(0, 0, 0);
+}
+
+.beneficios {
+    padding: 20px;
+    background-color: azure;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15%;
+    width: 20%;
+}
+
+.itens {
+    font-size: 20px;
+    padding: 40px;
+    font-style: italic;
+    color: black;
+}
+
+.imgbeneficios {
+    width: 50%;
 }
