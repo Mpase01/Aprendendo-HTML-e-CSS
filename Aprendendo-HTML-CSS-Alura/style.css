@@ -1,6 +1,9 @@
 body {
-    background-color:darkgreen;
+    background-color:rgb(226, 228, 121);
     color: floralwhite;
+}
+#banner {
+    width: 100%;
 }
 h1 {
     text-align: center;
