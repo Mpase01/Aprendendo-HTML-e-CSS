@@ -1,6 +1,17 @@
-.Cabecalho {
-    width: 100%;
+header {
     background-color: deeppink;
+    width: 100%;
     margin-top: 20px;
     padding: 20px;
+}
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+nav a { 
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
