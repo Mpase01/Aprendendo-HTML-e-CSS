@@ -1,8 +1,15 @@
 header {
     background-color: deeppink;
-    width: 100%;
-    margin-top: 20px;
-    padding: 20px;
+}
+.Menu {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 45%;
+    right: 150px;
 }
 nav li {
     display: inline;
@@ -10,8 +17,35 @@ nav li {
 }
 nav a { 
     text-transform: uppercase;
-    color: rgb(38, 76, 109);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+.Produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.Produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background-color: deeppink;
+    margin: 0 1.5%;
+    padding: 25px 30px;
+    box-sizing: border-box;
+}
+.Produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.descricao {
+    font-size: 20px;    
+}
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
