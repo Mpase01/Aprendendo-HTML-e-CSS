@@ -1,58 +1,95 @@
-body {
-    color: floralwhite;
+header {
+    background-color: deeppink;
+    padding: 20px 0;
 }
-
-.Cabecalho {
-    font-size: 40px;
+.Menu {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    margin-left: 20px;   
+}
+nav a { 
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {
     color: black;
-    margin-left: 30px;
+    text-decoration: underline;
 }
-
-.Centralizado {
-    color: black;
-    text-align: center;
+.Produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
-
-.banner {
-    width: 100%;
-}
-
-.principal {
-    padding: 30px;
-    background-color: rgb(91, 92, 92);
-}
-
-p {
-    text-align: center;
-}
-
-#missao {
-    font-size: 20px;
-}
-
-em strong {
-    color: rgb(0, 0, 0);
-}
-
-.beneficios {
-    padding: 20px;
-    background-color: azure;
-}
-
-ul {
+.Produtos li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    margin-right: 15%;
-    width: 20%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(127, 15, 150);
+    border-radius: 15px;
+}
+.Produtos li:hover {
+    border-color: rgb(255, 0, 179);
+}
+.Produtos li:hover h2 {
+    font-size: 35px;
+}
+.Produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.descricao {
+    font-size: 20px;    
+}
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer {
+    text-align: center;
+    background-image: url(Imagens/bg.jpg);
+    padding: 40px 0;
+}
+.copy {
+    margin: 20px 0 0;
+    font-size: 15px;
+    color: aliceblue;
 }
 
-.itens {
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;    
+}
+
+form label {
+    display: block;
     font-size: 20px;
-    padding: 40px;
-    font-style: italic;
-    color: black;
+    margin: 0 0 10px;
 }
 
-.imgbeneficios {
+form input {
+    display: block;
+    margin: 0 0 40px;
+    padding: 10px 25px;
     width: 50%;
 }
