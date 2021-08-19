@@ -130,3 +130,39 @@ td, th {
     border: 1px solid black;
     padding: 8px 15px ;
 }
+
+/* css da pagina principal */
+
+.banner {
+    width: 100%;    
+}
+
+.Centralizado {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 15%;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imgbeneficios {
+    width: 60%;
+
+}
